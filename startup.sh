@@ -8,4 +8,5 @@ checksum()
 if [ ! -e /opt/bin/jq ] || [ "$(checksum /opt/bin/jq)" != "$(checksum /jq)" ]; then
   echo "Installing jq to /opt/bin"
   cp -pf /jq /opt/bin
+  chmod +x /opt/bin/jq
 fi
