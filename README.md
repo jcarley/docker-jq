@@ -7,6 +7,6 @@ https://stedolan.github.io/jq/
 
 
 # Running on CoreOS
-/usr/bin/docker run --rm -v /opt/bin:/opt/bin jcarley/docker-jq
+docker run --rm -v /opt/bin:/opt/bin jcarley/docker-jq:latest
 
 
